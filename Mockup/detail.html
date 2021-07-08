@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- LIB -->
+    <link href="./lib/fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <link rel="stylesheet" type="text/css" href="./css/menu.css">
+    <link rel="stylesheet" type="text/css" href="./css/detail.css">
+    <link rel="stylesheet" type="text/css" href="./css/0/detail-1.css">
+
+    <title>Seminar về "Deep Learning and Its applications"</title>
+</head>
+<body>
+
+    <header id="header-top">
+
+        <div id="header-top-container" class="max-width-container font-label">
+
+            <div class="header-top-content-container">
+                <div class="header-top-content">
+                    <a class="header-top-label-link" id="header-top-label-link-home" href="#">Trường Đại học Thủy Lợi-TLU</a>
+                </div>
+            </div>
+            
+            <div class="header-top-content-container">
+                <div class="header-top-content">
+                    <div class="header-top-content-social">
+                        <a class="header-top-label-link" href="#">Login</a>
+                        <div id="header-login-page">
+                            <form id="header-login-form" action="" method="POST">
+                                <div id="header-login-form-btn-close"><i class="fas fa-times"></i></div>
+                                <div id="header-login-form-title-container">User Login</div>
+                                <div id="header-login-form-input-container">
+                                    <div id="header-login-username-container">
+                                        <p>Username: </p>
+                                        <input type="text">
+                                    </div>
+                                    <div id="header-login-password-container">
+                                        <p>Password: </p>
+                                        <input type="text">
+                                    </div>
+                                    <div id="header-login-submit-container">
+                                        <input type="submit" value="Resign">
+                                        <input type="submit" value="Login" style="background-color:#0D569E; color: #ffffff;" onmouseover="this.style.backgroundColor='#3792ED'; this.style.color='#000000'" onmouseout="this.style.backgroundColor='#0D569E'; this.style.color='#ffffff';">
+                                    </div>
+                                    <div id="header-login-support-container">
+                                        <p>You don't remember your password ?</p>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="header-top-content-social">
+                        <a class="header-top-label-link" href="#">Register</a>
+                        <div id="header-register-page">
+                            <form id="header-register-form" action="" method="POST">
+                                <div id="header-register-form-btn-close"><i class="fas fa-times"></i></div>
+                                <div id="header-register-form-title-container">User Register</div>
+                                <div id="header-register-form-input-container">
+                                    <div id="header-register-username-container">
+                                        <p>Email: </p>
+                                        <input type="text">
+                                        <p class="header-register-note">* abc@.xyz.com</p>
+                                    </div>
+                                    <div id="header-register-password-container">
+                                        <p>Password: </p>
+                                        <input type="text">
+                                        <p class="header-register-note">* 8-16 character</p>
+                                    </div>
+                                    <div id="header-register-password-container">
+                                        <p>Repeat Password: </p>
+                                        <input type="text">
+                                        <p class="header-register-note"></p>
+                                    </div>
+                                    <div id="header-register-submit-container">
+                                        <input style="visibility: hidden;">
+                                        <input type="submit" value="Resign" style="background-color:#0D569E; color: #ffffff;" onmouseover="this.style.backgroundColor='#3792ED'; this.style.color='#000000'" onmouseout="this.style.backgroundColor='#0D569E'; this.style.color='#ffffff';">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="header-top-content-social">
+                        <p>Ngôn ngữ:</p>
+                        <ul id="header-top-content-ul-langue">
+                            <li class="header-top-content-li-langue"><a href="#"><img src="./images/icons/icon-lang-en.png"></a></li>
+                            <li class="header-top-content-li-langue"><a href="#"><img src="./images/icons/icon-lang-vi.png"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header-top-content-container">
+                <div class="header-top-content">
+                    <input type="text" placeholder="Tìm kiếm">
+                    <input type="submit" value="Tìm">
+                </div>
+            </div>
+        
+        </div>
+
+    </header>
+
+    <header id="header-bottom">
+    
+        <div id="header-bottom-logo-container">
+            <div id="header-bottom-logo-img-container" class="max-width-container">
+                <a href="#"><img style="max-width: 100%;" src="./images/logo.jpg"></a>
+            </div>
+        </div>
+
+        <div id="header-bottom-menu">
+            <div id="header-bottom-menu-container" class="max-width-container">
+                <ul id="header-bottom-menu-ul">
+                    <li class="header-bottom-menu-li">
+                        <a href="#"><div class="header-bottom-menu-content-container font-label">Trang chủ</div></a>
+                    </li>
+                    <li class="header-bottom-menu-li">
+                        <a href="#"><div class="header-bottom-menu-content-container font-label">Giới thiệu</div></a>
+                        <div class="header-bottom-menudropdown-container">
+                            <ul id="header-bottom-menudropdown-ul">
+                                <li class="header-bottom-menudropdown-li"><a href="#"><div class="header-bottom-menudropdown-content-container font-label">Logo Khoa CNTT</div></a></li>
+                                <li class="header-bottom-menudropdown-li"><a href="#"><div class="header-bottom-menudropdown-content-container font-label">Lời chào mừng</div></a></li>
+                                <li class="header-bottom-menudropdown-li"><a href="#"><div class="header-bottom-menudropdown-content-container font-label">Tổ chức</div></a></li>
+                                <li class="header-bottom-menudropdown-li"><a href="#"><div class="header-bottom-menudropdown-content-container font-label">Hợp tác liên kết</div></a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="header-bottom-menu-li">
+                        <a href="#"><div class="header-bottom-menu-content-container font-label">Nghiên cứu khoa học</div></a>
+                        <div class="header-bottom-menudropdown-container">
+                            <ul id="header-bottom-menudropdown-ul">
+                                <li class="header-bottom-menudropdown-li"><a href="#"><div class="header-bottom-menudropdown-content-container font-label">Các đề tài, dự án</div></a></li>
+                                <li class="header-bottom-menudropdown-li"><a href="#"><div class="header-bottom-menudropdown-content-container font-label">Thông tin seminar</div></a></li>
+                                <li class="header-bottom-menudropdown-li"><a href="#"><div class="header-bottom-menudropdown-content-container font-label">Công trình công bố</div></a></li>
+                                <li class="header-bottom-menudropdown-li"><a href="#"><div class="header-bottom-menudropdown-content-container font-label">Các phòng thí nghiệm</div></a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="header-bottom-menu-li">
+                        <a href="#"><div class="header-bottom-menu-content-container font-label">Đào tạo</div></a>
+                        <div class="header-bottom-menudropdown-container">
+                            <ul id="header-bottom-menudropdown-ul">
+                                <li class="header-bottom-menudropdown-li"><a href="#"><div class="header-bottom-menudropdown-content-container font-label">Đào tạo đại học</div></a></li>
+                                <li class="header-bottom-menudropdown-li"><a href="#"><div class="header-bottom-menudropdown-content-container font-label">Đào tạo sau đại học</div></a></li>
+                                <li class="header-bottom-menudropdown-li"><a href="#"><div class="header-bottom-menudropdown-content-container font-label">Chuẩn đầu ra</div></a></li>
+                                <li class="header-bottom-menudropdown-li"><a href="#"><div class="header-bottom-menudropdown-content-container font-label">Định hướng ngành nghề</div></a></li>
+                                <li class="header-bottom-menudropdown-li"><a href="#"><div class="header-bottom-menudropdown-content-container font-label">Mô hình đào tạo</div></a></li>
+                                <li class="header-bottom-menudropdown-li"><a href="#"><div class="header-bottom-menudropdown-content-container font-label">Đề cương môn học</div></a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="header-bottom-menu-li">
+                        <a href="#"><div class="header-bottom-menu-content-container font-label">Bộ môn trung tâm</div></a>
+                        <div class="header-bottom-menudropdown-container">
+                            <ul id="header-bottom-menudropdown-ul">
+                                <li class="header-bottom-menudropdown-li"><a href="#"><div class="header-bottom-menudropdown-content-container font-label">CN phần mềm</div></a></li>
+                                <li class="header-bottom-menudropdown-li"><a href="#"><div class="header-bottom-menudropdown-content-container font-label">Hệ thống thông tin</div></a></li>
+                                <li class="header-bottom-menudropdown-li"><a href="#"><div class="header-bottom-menudropdown-content-container font-label">Khoa học máy tính</div></a></li>
+                                <li class="header-bottom-menudropdown-li"><a href="#"><div class="header-bottom-menudropdown-content-container font-label">Kĩ thuật máy tính và mạng</div></a></li>
+                                <li class="header-bottom-menudropdown-li"><a href="#"><div class="header-bottom-menudropdown-content-container font-label">Toán học</div></a></li>
+                                <li class="header-bottom-menudropdown-li"><a href="#"><div class="header-bottom-menudropdown-content-container font-label">Tin học và kĩ thuật tính toán</div></a></li>
+                                <li class="header-bottom-menudropdown-li"><a href="#"><div class="header-bottom-menudropdown-content-container font-label">Trung tâm tin học</div></a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="header-bottom-menu-li">
+                        <a href="#"><div class="header-bottom-menu-content-container font-label">Sinh viên</div></a>
+                        <div class="header-bottom-menudropdown-container">
+                            <ul id="header-bottom-menudropdown-ul">
+                                <li class="header-bottom-menudropdown-li"><a href="#"><div class="header-bottom-menudropdown-content-container font-label">Tài liệu sinh viên</div></a></li>
+                                <li class="header-bottom-menudropdown-li"><a href="#"><div class="header-bottom-menudropdown-content-container font-label">Tổ tư vấn học tập</div></a></li>
+                                <li class="header-bottom-menudropdown-li"><a href="#"><div class="header-bottom-menudropdown-content-container font-label">Biểu mẫu ĐATN</div></a></li>
+                                <li class="header-bottom-menudropdown-li"><a href="#"><div class="header-bottom-menudropdown-content-container font-label">Luận văn tốt nghiệp</div></a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="header-bottom-menu-li">
+                        <a href="#"><div class="header-bottom-menu-content-container font-label">Tin tức</div></a>
+                        <div class="header-bottom-menudropdown-container">
+                            <ul id="header-bottom-menudropdown-ul">
+                                <li class="header-bottom-menudropdown-li"><a href="#"><div class="header-bottom-menudropdown-content-container font-label">Sự kiện</div></a></li>
+                                <li class="header-bottom-menudropdown-li"><a href="#"><div class="header-bottom-menudropdown-content-container font-label">CSE trên báo</div></a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="header-bottom-menu-li">
+                        <a href="#"><div class="header-bottom-menu-content-container font-label">Thông báo</div></a>
+                        <div class="header-bottom-menudropdown-container">
+                            <ul id="header-bottom-menudropdown-ul">
+                                <li class="header-bottom-menudropdown-li"><a href="#"><div class="header-bottom-menudropdown-content-container font-label">Thông báo</div></a></li>
+                                <li class="header-bottom-menudropdown-li"><a href="#"><div class="header-bottom-menudropdown-content-container font-label">TB Đào tạo</div></a></li>
+                                <li class="header-bottom-menudropdown-li"><a href="#"><div class="header-bottom-menudropdown-content-container font-label">Nghiên cứu khoa học</div></a></li>
+                                <li class="header-bottom-menudropdown-li"><a href="#"><div class="header-bottom-menudropdown-content-container font-label">Tuyển dụng</div></a></li>
+                                <li class="header-bottom-menudropdown-li"><a href="#"><div class="header-bottom-menudropdown-content-container font-label">Học bổng</div></a></li>
+                                <li class="header-bottom-menudropdown-li"><a href="#"><div class="header-bottom-menudropdown-content-container font-label">Thong báo khác</div></a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="header-bottom-menu-li"><a href="#"><div class="header-bottom-menu-content-container font-label">Liên hệ</div></a></li>
+                </ul>
+            </div>
+        </div>
+
+    </header>
+
+
+    <div id="body">
+
+        <div id="body-content">
+            <div id="body-content-container" class="max-width-container">
+                
+                <div id="body-title-container" class="font-label">
+                    <p><a href="#" class="body-title-text">Nghiên cứu</a> &ensp; > &ensp; <a href="#" class="body-title-text">Thông tin seminar</a></p>
+                </div>
+
+
+                <div id="body-list-component" class="font-label">
+
+                    <div id="body-component-content">
+
+                        <div id="post-container">
+                            
+                            <h1>Seminar về "Deep Learning and Its applications"</h1>
+
+                            <div id="post-description-container">
+                                <p id="post-description">
+                                    Seminar on Thursday August 31, 2017
+                                    <br><br>
+                                    Time: 14h00-16h00, on Thursday August 31, 2017.
+                                    <br><br>
+                                    Place: MSLab, 103-C5, ThuyLoi University, 175 Tay Son, Dong Da, Hanoi, Vietnam. 
+                                    <br><br>
+                                    =====================
+                                    <br><br>
+                                    Title: Deep Learning and Its applications
+                                    <br><br>
+                                    Speaker: Dr. Nguyen Van Nam, University of Engineering and Technology, Hanoi, Vietnam. 
+                                    <br><br>
+                                     Abstract: 
+                                    <br><br>
+                                    The recently emerged industrial revolution 4.0 promises to radically change the social and economic environments. This revolution is based on intelligent robots which are able to replace human beings in every domains from healthcare (elderly assistant robot), commerce (automatic salesman), finance (robo advisor), transport (autopilot), etc. The intelligent robots can be faster built thanks for advances in machine learning, artificial intelligence (AI), robotics, information and communication technologies (ICT). In Vietnam, the fast growing of ICT in recent year has laid a foundation for the intelligent robots. However, their brain can be made from machine learning, AI of which the applications are still inceptive. 
+                                    <br><br>
+                                     In this talk, we present an introduction to deep learning and its applications such as image recognition, automatic speech recognition (ASR), natural language processing, customer relationship management, recommendation systems. Deep learning relies on artificial neural networks (ANN) which include three layers: input (data attributes), hidden (weights, summation function, transformation function) and output layer (classification results). ANNs provide two learning methods: supervised and unsupervised. In the former case, the back propagation techniques is used to train repeatedly so that the output reaches the known desired value. In the latter case, there is no external interception during training process. 
+                                    <br><br>
+                                          We also present an application of deep learning for customer relationship management in vatgia.com. Given the image of a fashion (clothes, shoes, earrings, etc), the system will output its Vietnamese name and its corresponding prices. The system is trained from a huge amount of data from vatgia.com, uses Inception-v3 (open source) and has an error rate of lower than 3.46%.      
+                                    <br><br>
+                                    <br><br>
+                                    <br><br>
+                                    <br><br>
+                                     =========================
+                                    <br><br>
+                                    Short bibliography:
+                                    <br><br>
+                                    Nguyen Van Nam received his Master and Ph.D in University of Lyon 1 in 2012. He also graduated the Hanoi University of Science and Technologies in 2001. His scientific interests include some emerging technologies such as high rate computer networks, cloud computing, big data, machine learning, etc. </p>
+                            </div>
+
+                            <div id="post-tag-container">
+                                <i class="fas fa-tag"></i>
+                            </div>
+
+                        </div>
+
+                        <div id="posts-other-container">
+                            
+                            <h2 id="post-other-title-container">Các tin khác</h2>
+
+                            <ul id="post-other-menu-ul">
+                                <li class="post-other-menu-li">
+                                    <a href="#"><div class="post-other-container"><i class="fas fa-angle-double-right"></i>Thông báo về buổi nói chuyện của GS Hongler</div></a>
+                                </li>
+                                <li class="post-other-menu-li">
+                                    <a href="#"><div class="post-other-container"><i class="fas fa-angle-double-right"></i>Seminar về "Deep Learning and Its applications"</div></a>
+                                </li>
+                                <li class="post-other-menu-li">
+                                    <a href="#"><div class="post-other-container"><i class="fas fa-angle-double-right"></i>Seminar về "Phát triển mô hình quản trị chất lượng chuỗi cung ứng tại các doanh nghiệp điện - điện tử - viễn thông tại Việt Nam"</div></a>
+                                </li>
+                                <li class="post-other-menu-li">
+                                    <a href="#"><div class="post-other-container"><i class="fas fa-angle-double-right"></i>Seminar: Ứng dụng Học máy phân tích dữ liệu kinh tế</div></a>
+                                </li>
+                            </ul>
+
+                            <ul id="post-other-index-ul">
+                                <li class="post-other-index-li"><a href="#"><div class="post-other-index-container">1</div></a></li>
+                                <li class="post-other-index-li"><a href="#"><div class="post-other-index-container">2</div></a></li>
+                                <li class="post-other-index-li"><a href="#"><div class="post-other-index-container">3</div></a></li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                    <div id="body-component-menu">
+                        <h2 id="body-component-menu-title"><a href="#">Nghiên cứu khoa học</a></h2>
+                        <ul>
+                            <li class="body-menu-li">
+                                <i class="fas fa-angle-right"></i>
+                                <a href="#"><div class="body-menu-li-content">Các đề tài, dự án</div></a>
+                            </li>
+                            <li class="body-menu-li">
+                                <i class="fas fa-angle-right"></i>
+                                <a href="#"><div class="body-menu-li-content">Thông tin seminar</div></a>
+                            </li>
+                            <li class="body-menu-li">
+                                <i class="fas fa-angle-right"></i>
+                                <a href="#"><div class="body-menu-li-content">Công trình công bố</div></a>
+                            </li>
+                            <li class="body-menu-li">
+                                <i class="fas fa-angle-right"></i>
+                                <a href="#"><div class="body-menu-li-content">Các phòng thí nghiệm</div></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <footer id="footer">
+        <div id="footer-container" class="max-width-container">
+            <div id="footer-top-container">
+                <ul class="footer-top-ul">
+                    <li class="footer-top-li"><a href="#" class="footer-top-li-link font-label">Giới thiệu</a></li>
+                    <li class="footer-top-li"><a href="#" class="footer-top-li-link font-label">Logo của Khoa CNTT</a></li>
+                    <li class="footer-top-li"><a href="#" class="footer-top-li-link font-label">Lời chào mừng</a></li>
+                    <li class="footer-top-li"><a href="#" class="footer-top-li-link font-label">Tổ chức</a></li>
+                    <li class="footer-top-li"><a href="#" class="footer-top-li-link font-label">Hợp tác liên kết</a></li>
+                </ul>
+                <ul class="footer-top-ul">
+                    <li class="footer-top-li"><a href="#" class="footer-top-li-link font-label">Đào tạo</a></li>
+                    <li class="footer-top-li"><a href="#" class="footer-top-li-link font-label">Mô hình đào tạo</a></li>
+                    <li class="footer-top-li"><a href="#" class="footer-top-li-link font-label">Đào tạo đại học</a></li>
+                    <li class="footer-top-li"><a href="#" class="footer-top-li-link font-label">Định hướng ngành nghề</a></li>
+                    <li class="footer-top-li"><a href="#" class="footer-top-li-link font-label">Đào tạo sau đại học</a></li>
+                </ul>
+                <ul class="footer-top-ul">
+                    <li class="footer-top-li"><a href="#" class="footer-top-li-link font-label">Nghiên cứu khoa học</a></li>
+                    <li class="footer-top-li"><a href="#" class="footer-top-li-link font-label">Thông tin seminar</a></li>
+                    <li class="footer-top-li"><a href="#" class="footer-top-li-link font-label">Các đè tài, dự án</a></li>
+                    <li class="footer-top-li"><a href="#" class="footer-top-li-link font-label">Công trình công bố</a></li>
+                    <li class="footer-top-li"><a href="#" class="footer-top-li-link font-label">Các phòng thí nghiệm</a></li>
+                </ul>
+                <ul class="footer-top-ul">
+                    <li class="footer-top-li"><a href="#" class="footer-top-li-link font-label">Công nghệ phần mềm</a></li>
+                    <li class="footer-top-li"><a href="#" class="footer-top-li-link font-label">Hệ thống thông tin</a></li>
+                    <li class="footer-top-li"><a href="#" class="footer-top-li-link font-label">Khoa học máy tính</a></li>
+                    <li class="footer-top-li"><a href="#" class="footer-top-li-link font-label">Kĩ thuật máy tính và mạng</a></li>
+                    <li class="footer-top-li"><a href="#" class="footer-top-li-link font-label">Toán học</a></li>
+                    <li class="footer-top-li"><a href="#" class="footer-top-li-link font-label">Trung tâm tin học</a></li>
+                </ul>
+            </div>
+            <div id="footer-bottom-container">
+                <img style="max-width:20%" src="./images/img-01.png">
+                <p>© 2017 Khoa Công nghệ thông tin - Đại học Thủy lợi
+                    <br>
+                    Địa chỉ: nhà C1, Đại học Thủy lợi, 175 Tây Sơn, Đống Đa, Hà Nội. Điện thoại: (+84)-024 3 5632211. Email: <a href="#" id="footer-bottom-link">vpkcntt@tlu.edu.vn</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
