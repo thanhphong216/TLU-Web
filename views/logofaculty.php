@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/menu.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/detail.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/0/logofaculty.css">
 
     <title>Thông tin seminar</title>
 </head>
@@ -33,9 +34,9 @@
                         <h1>Logo của Khoa</h1>
 
                         <div id="post-description-container">
-                            <p id="post-description">
+                            <div id="post-description">
                                 <img src="./assets/images/portal/CSE logo.jpg">
-                            </p>
+                            </div>
                         </div>
 
                         <div id="post-tag-container">
