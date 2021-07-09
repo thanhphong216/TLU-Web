@@ -5,3 +5,7 @@
 #slideshow-container{
     margin: 20px 0px;
 }
+
+.img-post-description{
+    max-width: 50%;
+}
