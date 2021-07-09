@@ -96,6 +96,7 @@
                                 Trưởng Khoa Công nghệ thông tin
                                 <br>
                                 <span style="color: #28166F;">PGS. <span><a href=#>TS.  Nguyễn Thanh Tùng</a></span></span>
+                            </p>
                         </div>
 
                         <div id="post-tag-container">

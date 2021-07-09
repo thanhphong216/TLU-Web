@@ -4,5 +4,5 @@
     require_once(ROOT_PATH . '/utils/ConnectionUtils.php');
     require_once(ROOT_PATH . '/includes/functions.php');
     
-    include(ROOT_PATH . '/views/welcome.php');
+    include(ROOT_PATH . '/views/institute.php');
 ?>
