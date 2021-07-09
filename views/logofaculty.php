@@ -36,6 +36,7 @@
                         <div id="post-description-container">
                             <div id="post-description">
                                 <img src="./assets/images/portal/CSE logo.jpg">
+                                <img src="./assets/images/portal/CSE logo.jpg">
                             </div>
                         </div>
 
