@@ -9,6 +9,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/slide.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/0/homepage.css">
 
     <title>Khoa Công nghệ thông tin - Trường ĐH Thủy Lợi</title>

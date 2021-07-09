@@ -1,0 +1,7 @@
+#slideshow-container, .slide-container{
+    max-width: 1000px;
+}
+
+#slideshow-container{
+    margin: 20px 0px;
+}
