@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/menu.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/detail.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/0/institute.css">
 
     <title>Thông tin seminar</title>
 </head>
@@ -42,7 +43,7 @@
                                 <br><br>
                                 <b>* Ban chủ nhiệm khoa</b>
                                 <br><br>
-                                <img src="./assets/images/portal/0/user/004/04/4/avar1.jpg">
+                                <img style="width: 300px" src="./assets/images/portal/0/user/004/04/4/avar1.jpg">
                                 <br><br>
                                 <b><i>1. PGS.TS Nguyễn Thanh Tùng - Trưởng Khoa</i></b>
                                 <br><br>
@@ -110,9 +111,63 @@
                                 <br><br>
                                 - Các nhiệm vụ khác khi được Trưởng khoa phân công.
                                 <br><br>
-                                <br><br>
-                                <br><br>
-                                <br><br>
+                                <table>
+                                    <tr>
+                                        <th>*Văn phòng khoa</td>
+                                        <td>ThS. Nguyễn Thị Thu Hương<br>KS. Nguyễn Khánh Linh</td>
+                                    </tr>
+                                </table>
+                                <br>
+                                <b>* Khối các đơn vị giảng dạy</b>
+                                <br>
+                                <table>
+                                    <tr>
+                                        <td><a href="#">- Bộ môn Tin học và Kỹ thuật tính toán</a></td>
+                                        <td>Trưởng BM - TS. Nguyễn Quỳnh Diệp</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#">- Bộ môn Công nghệ phần mềm</a></td>
+                                        <td>P. Trưởng BM - TS. Lê Nguyễn Tuấn Thành</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#">- Bộ môn Hệ thống thông tin</a></td>
+                                        <td>Phụ trách BM - TS. Trần Mạnh Tuấn</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#">- Bộ môn Khoa học máy tính</a></td>
+                                        <td>P. Trưởng BM - PGS.TS Trần Thị Ngân</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#">- Bộ môn Kỹ thuật Máy tính & Mạng</a></td>
+                                        <td>P. Trưởng BM - Ths. Phạm Thanh Bình</td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#">- Bộ môn Toán học</a></td>
+                                        <td>Trưởng BM- TS. Nguyễn Hữu Thọ</td>
+                                    </tr>
+                                </table>
+                                <br>
+                                <b>* Khối tổ chức đoàn thể</b>
+                                <br>
+                                <table>
+                                    <tr>
+                                        <td>- Đảng bộ bộ phận khoa Công nghệ thông tin</td>
+                                        <td>Bí thư Nguyễn Thanh Tùng</td>
+                                    </tr>
+                                    <tr>
+                                        <td>- Công đoàn khoa Công nghệ thông tin</td>
+                                        <td>Chủ tịch Nguyễn Hữu Thọ</td>
+                                    </tr>
+                                    <tr>
+                                        <td>- Chi đoàn giáo viên</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>- Liên chi Khoa CNTT</td>
+                                        <td>Bí thư Đỗ Oanh Cường</td>
+                                    </tr>
+                                </table>
+                                <br>
                                 <b>* Các phòng thí nghiệm phục vụ công tác đào tạo, nghiên cứu</b>
                                 <br><br>
                                 - Phòng Lab Khoa học dữ liệu
