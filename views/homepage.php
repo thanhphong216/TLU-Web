@@ -5,18 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- LIB -->
-    <link href="./lib/fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet">
+    <link href=<?php echo BASE_URL . "./lib/fontawesome-free-5.15.3-web/css/all.css" ?> rel="stylesheet">
 
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/slide.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/0/homepage.css">
+    <link rel="stylesheet" type="text/css" href=<?php echo BASE_URL . "./assets/css/styles.css" ?>>
+    <link rel="stylesheet" type="text/css" href=<?php echo BASE_URL . "./assets/css/slide.css" ?>>
+    <link rel="stylesheet" type="text/css" href=<?php echo BASE_URL . "./assets/css/0/homepage.css" ?>>
 
     <title>Khoa Công nghệ thông tin - Trường ĐH Thủy Lợi</title>
 </head>
 <body>
 
-    <?php include(ROOT_PATH . '/views/layouts/_header.php'); ?>
+    <?php include(PATH_ROOT . '/views/layouts/_header.php'); ?>
 
 
     <div id="body">
@@ -29,7 +29,7 @@
                     <div id="slideshow-container">
                         <?php
                             openMySQLConnection($conn);
-                            $langs = getAllSlides();
+                            $langs = getAllSlides($conn);
                             closeMySQLConnection($conn);
                             $count = count($langs);
                         ?>
@@ -66,35 +66,35 @@
                         <ul class="body-navigator-ul">
                             <li class="body-navigator-li">
                                 <div class="body-navigator-content-container">
-                                    <img class="body-navigator-img" src="./assets/images/cse-hallthumb.jpg">
-                                    <a class="body-navigator-link" href="#">Lời chào mừng</a>
+                                    <img class="body-navigator-img" src=<?php echo BASE_URL . "./assets/images/cse-hallthumb.jpg" ?>>
+                                    <a class="body-navigator-link" href="/welcome">Lời chào mừng</a>
                                 </div>
                             </li>
                             <li class="body-navigator-li">
                                 <div class="body-navigator-content-container">
-                                    <img class="body-navigator-img" src="./assets/images/cse-tlu-narathumb.jpg">
-                                    <a class="body-navigator-link" href="#">Nghiên cứu khoa học</a>
+                                    <img class="body-navigator-img" src=<?php echo BASE_URL . "./assets/images/cse-tlu-narathumb.jpg" ?>>
+                                    <a class="body-navigator-link" href="/scientificresearch">Nghiên cứu khoa học</a>
                                 </div>
                             </li>
                         </ul>
                         <ul class="body-navigator-ul">
                             <li class="body-navigator-li">
                                 <div class="body-navigator-content-container">
-                                    <img class="body-navigator-img" src="./assets/images/gv-khoa-cnttthumb.jpg">
+                                    <img class="body-navigator-img" src=<?php echo BASE_URL . "./assets/images/gv-khoa-cnttthumb.jpg" ?>>
                                     <a class="body-navigator-link" href="#">Giảng viên</a>
                                 </div>
                             </li>
                             <li class="body-navigator-li">
                                 <div class="body-navigator-content-container">
-                                    <img class="body-navigator-img" src="./assets/images/k54th-tot-nghiep-1thumb.jpg">
-                                    <a class="body-navigator-link" href="#">Đào tạo</a>
+                                    <img class="body-navigator-img" src=<?php echo BASE_URL . "./assets/images/k54th-tot-nghiep-1thumb.jpg" ?>>
+                                    <a class="body-navigator-link" href="/educate">Đào tạo</a>
                                 </div>
                             </li>
                         </ul>
                         <ul class="body-navigator-ul">
                             <li class="body-navigator-li">
                                 <div class="body-navigator-content-container">
-                                    <img class="body-navigator-img" src="./assets/images/khoa43th.jpg">
+                                    <img class="body-navigator-img" src=<?php echo BASE_URL . "./assets/images/khoa43th.jpg" ?>>
                                     <a class="body-navigator-link" href="#">Ảnh khoa CNTT</a>
                                 </div>
                             </li>
@@ -114,9 +114,9 @@
     </div>
 
 
-    <?php include(ROOT_PATH . '/views/layouts/_footer.php'); ?>
+    <?php include(PATH_ROOT . '/views/layouts/_footer.php'); ?>
 
     <!-- JS -->
-    <script type="text/javascript" src="./assets/js/slide.js"></script>
+    <script type="text/javascript" src=<?php echo BASE_URL . "/assets/js/slide.js" ?>></script>
 </body>
 </html>

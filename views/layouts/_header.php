@@ -4,7 +4,7 @@
 
         <div class="header-top-content-container">
             <div class="header-top-content">
-                <a class="header-top-label-link" id="header-top-label-link-home" href="#">Trường Đại học Thủy Lợi-TLU</a>
+                <a class="header-top-label-link" id="header-top-label-link-home" href=<?php echo BASE_URL . '/' ?>>Trường Đại học Thủy Lợi-TLU</a>
             </div>
         </div>
         
@@ -71,7 +71,7 @@
                     <ul id="header-top-content-ul-langue">
                         <?php
                             openMySQLConnection($conn);
-                            $langs = getAllLanguage();
+                            $langs = getAllLanguage($conn);
                             closeMySQLConnection($conn);
 
                             foreach($langs as $row){
@@ -100,7 +100,7 @@
 
     <div id="header-bottom-logo-container">
         <div id="header-bottom-logo-img-container" class="max-width-container">
-            <a href="#"><img style="max-width: 100%;" src="./assets/images/logo.jpg"></a>
+            <a href="/"><img style="max-width: 100%;" src=<?php echo BASE_URL . "/assets/images/logo.jpg" ?>></a>
         </div>
     </div>
 
@@ -108,21 +108,21 @@
         <div id="header-bottom-menu-container" class="max-width-container">
             <ul id="header-bottom-menu-ul">
                 <li class="header-bottom-menu-li">
-                    <a href="#"><div class="header-bottom-menu-content-container font-label">Trang chủ</div></a>
+                    <a href="/"><div class="header-bottom-menu-content-container font-label">Trang chủ</div></a>
                 </li>
                 <li class="header-bottom-menu-li">
-                    <a href="#"><div class="header-bottom-menu-content-container font-label">Giới thiệu</div></a>
+                    <a href="/introduce"><div class="header-bottom-menu-content-container font-label">Giới thiệu</div></a>
                     <div class="header-bottom-menudropdown-container">
                         <ul id="header-bottom-menudropdown-ul">
-                            <li class="header-bottom-menudropdown-li"><a href="#"><div class="header-bottom-menudropdown-content-container font-label">Logo Khoa CNTT</div></a></li>
-                            <li class="header-bottom-menudropdown-li"><a href="#"><div class="header-bottom-menudropdown-content-container font-label">Lời chào mừng</div></a></li>
-                            <li class="header-bottom-menudropdown-li"><a href="#"><div class="header-bottom-menudropdown-content-container font-label">Tổ chức</div></a></li>
-                            <li class="header-bottom-menudropdown-li"><a href="#"><div class="header-bottom-menudropdown-content-container font-label">Hợp tác liên kết</div></a></li>
+                            <li class="header-bottom-menudropdown-li"><a href="/logofaculty"><div class="header-bottom-menudropdown-content-container font-label">Logo Khoa CNTT</div></a></li>
+                            <li class="header-bottom-menudropdown-li"><a href="/welcome"><div class="header-bottom-menudropdown-content-container font-label">Lời chào mừng</div></a></li>
+                            <li class="header-bottom-menudropdown-li"><a href="/institute"><div class="header-bottom-menudropdown-content-container font-label">Tổ chức</div></a></li>
+                            <li class="header-bottom-menudropdown-li"><a href="/cooperation"><div class="header-bottom-menudropdown-content-container font-label">Hợp tác liên kết</div></a></li>
                         </ul>
                     </div>
                 </li>
                 <li class="header-bottom-menu-li">
-                    <a href="#"><div class="header-bottom-menu-content-container font-label">Nghiên cứu khoa học</div></a>
+                    <a href="/scientificresearch"><div class="header-bottom-menu-content-container font-label">Nghiên cứu khoa học</div></a>
                     <div class="header-bottom-menudropdown-container">
                         <ul id="header-bottom-menudropdown-ul">
                             <li class="header-bottom-menudropdown-li"><a href="#"><div class="header-bottom-menudropdown-content-container font-label">Các đề tài, dự án</div></a></li>
@@ -133,7 +133,7 @@
                     </div>
                 </li>
                 <li class="header-bottom-menu-li">
-                    <a href="#"><div class="header-bottom-menu-content-container font-label">Đào tạo</div></a>
+                    <a href="/educate"><div class="header-bottom-menu-content-container font-label">Đào tạo</div></a>
                     <div class="header-bottom-menudropdown-container">
                         <ul id="header-bottom-menudropdown-ul">
                             <li class="header-bottom-menudropdown-li"><a href="#"><div class="header-bottom-menudropdown-content-container font-label">Đào tạo đại học</div></a></li>
@@ -200,5 +200,5 @@
 </header>
 
 <!-- JS -->
-<script type="text/javascript" src="./assets/js/login.js"></script>
-<script type="text/javascript" src="./assets/js/resign.js"></script>
+<script type="text/javascript" src=<?php echo BASE_URL . "./assets/js/login.js" ?>></script>
+<script type="text/javascript" src=<?php echo BASE_URL . "./assets/js/resign.js" ?>></script>

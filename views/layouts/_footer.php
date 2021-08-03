@@ -32,7 +32,7 @@
             </ul>
         </div>
         <div id="footer-bottom-container">
-            <img style="max-width:20%" src="./assets/images/img-01.png">
+            <img style="max-width:20%" src=<?php echo BASE_URL . "./assets/images/img-01.png" ?>>
             <p>© 2017 Khoa Công nghệ thông tin - Đại học Thủy lợi
                 <br>
                 Địa chỉ: nhà C1, Đại học Thủy lợi, 175 Tây Sơn, Đống Đa, Hà Nội. Điện thoại: (+84)-024 3 5632211. Email: <a href="#" id="footer-bottom-link">vpkcntt@tlu.edu.vn</a>
