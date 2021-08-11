@@ -10,5 +10,4 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 
 # Push every request to index.php
-RewriteRule /index.php /School_Web/
 RewriteRule ^(.+)$ /School_Web/index.php?url=$1

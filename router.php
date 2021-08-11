@@ -7,6 +7,11 @@
     Router::get('/School_Web/', function(){
         include(PATH_ROOT . '/views/homepage.php');
     });
+
+    Router::get('/admin', function(){
+        include(PATH_ROOT . '/views/admin/index.php');
+    });
+
     Router::get('/introduce', function(){
         include(PATH_ROOT . '/views/introduce.php');
     });
@@ -28,7 +33,7 @@
     Router::get('/educate', function(){
         include(PATH_ROOT . '/views/educate.php');
     });
-
+    
     
 
     class Router{

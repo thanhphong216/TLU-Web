@@ -1,4 +1,5 @@
 <?php
     define ('PATH_ROOT', __DIR__);
-	define('BASE_URL', 'http://localhost/School_Web');
+    define('IP_ADDRESS', 'localhost');
+	define('BASE_URL', 'http://' . IP_ADDRESS . '/School_Web');
 ?>
